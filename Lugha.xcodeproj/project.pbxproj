@@ -25,6 +25,7 @@
 		C9D9111626D39889002DCF97 /* LessonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9111226D39889002DCF97 /* LessonListView.swift */; };
 		C9D9111726D39889002DCF97 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9111326D39889002DCF97 /* AuthenticationView.swift */; };
 		C9D9111826D39889002DCF97 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9111426D39889002DCF97 /* LessonView.swift */; };
+		C9D9111D26D3BC80002DCF97 /* LanguageSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9111C26D3BC80002DCF97 /* LanguageSelectorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		C9D9111226D39889002DCF97 /* LessonListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonListView.swift; sourceTree = "<group>"; };
 		C9D9111326D39889002DCF97 /* AuthenticationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		C9D9111426D39889002DCF97 /* LessonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		C9D9111C26D3BC80002DCF97 /* LanguageSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			children = (
 				C9D9111326D39889002DCF97 /* AuthenticationView.swift */,
 				C9D9111226D39889002DCF97 /* LessonListView.swift */,
+				C9D9111C26D3BC80002DCF97 /* LanguageSelectorView.swift */,
 				C9D9111426D39889002DCF97 /* LessonView.swift */,
 				C9D9111126D39889002DCF97 /* QuizView.swift */,
 			);
@@ -331,6 +334,7 @@
 				C94F6D2926D13948005B9416 /* Question.swift in Sources */,
 				C94F6D3826D13A7E005B9416 /* Language.swift in Sources */,
 				C929630926D130D200931009 /* Lugha.xcdatamodeld in Sources */,
+				C9D9111D26D3BC80002DCF97 /* LanguageSelectorView.swift in Sources */,
 				C94F6D1926D135EA005B9416 /* User.swift in Sources */,
 				C94F6D2426D135F7005B9416 /* Quiz.swift in Sources */,
 			);
