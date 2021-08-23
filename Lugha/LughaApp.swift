@@ -6,14 +6,18 @@
 //
 
 import SwiftUI
+//import Firebase
 
 @main
 struct LughaApp: App {
     let persistenceController = PersistenceController.shared
 
+    init () {
+//        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LessonListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
