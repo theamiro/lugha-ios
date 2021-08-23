@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		C92962FD26D130CC00931009 /* LughaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92962FC26D130CC00931009 /* LughaApp.swift */; };
-		C92962FF26D130CC00931009 /* LessonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92962FE26D130CC00931009 /* LessonListView.swift */; };
 		C929630126D130D200931009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C929630026D130D200931009 /* Assets.xcassets */; };
 		C929630426D130D200931009 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C929630326D130D200931009 /* Preview Assets.xcassets */; };
 		C929630626D130D200931009 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929630526D130D200931009 /* Persistence.swift */; };
 		C929630926D130D200931009 /* Lugha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C929630726D130D200931009 /* Lugha.xcdatamodeld */; };
 		C929631426D130D200931009 /* LughaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929631326D130D200931009 /* LughaTests.swift */; };
 		C929631F26D130D200931009 /* LughaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929631E26D130D200931009 /* LughaUITests.swift */; };
-		C94F6D0926D13349005B9416 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F6D0826D13349005B9416 /* AuthenticationView.swift */; };
-		C94F6D0E26D1342C005B9416 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F6D0D26D1342C005B9416 /* LessonView.swift */; };
-		C94F6D1326D134EB005B9416 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F6D1226D134EB005B9416 /* QuizView.swift */; };
 		C94F6D1926D135EA005B9416 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F6D1826D135EA005B9416 /* User.swift */; };
 		C94F6D2426D135F7005B9416 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F6D2326D135F7005B9416 /* Quiz.swift */; };
 		C94F6D2926D13948005B9416 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F6D2826D13948005B9416 /* Question.swift */; };
 		C94F6D2E26D13973005B9416 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F6D2D26D13973005B9416 /* Answer.swift */; };
-		C94F6D3326D13A2B005B9416 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F6D3226D13A2B005B9416 /* Lesson.swift */; };
 		C94F6D3826D13A7E005B9416 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F6D3726D13A7E005B9416 /* Language.swift */; };
 		C94F6D3D26D13B79005B9416 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F6D3C26D13B79005B9416 /* Flashcard.swift */; };
+		C9D9110126D39801002DCF97 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9110026D39801002DCF97 /* Lesson.swift */; };
+		C9D9111526D39889002DCF97 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9111126D39889002DCF97 /* QuizView.swift */; };
+		C9D9111626D39889002DCF97 /* LessonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9111226D39889002DCF97 /* LessonListView.swift */; };
+		C9D9111726D39889002DCF97 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9111326D39889002DCF97 /* AuthenticationView.swift */; };
+		C9D9111826D39889002DCF97 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9111426D39889002DCF97 /* LessonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 /* Begin PBXFileReference section */
 		C92962F926D130CC00931009 /* Lugha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lugha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92962FC26D130CC00931009 /* LughaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LughaApp.swift; sourceTree = "<group>"; };
-		C92962FE26D130CC00931009 /* LessonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonListView.swift; sourceTree = "<group>"; };
 		C929630026D130D200931009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C929630326D130D200931009 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C929630526D130D200931009 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -59,16 +58,17 @@
 		C929631A26D130D200931009 /* LughaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LughaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C929631E26D130D200931009 /* LughaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LughaUITests.swift; sourceTree = "<group>"; };
 		C929632026D130D200931009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C94F6D0826D13349005B9416 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
-		C94F6D0D26D1342C005B9416 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
-		C94F6D1226D134EB005B9416 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		C94F6D1826D135EA005B9416 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C94F6D2326D135F7005B9416 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		C94F6D2826D13948005B9416 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		C94F6D2D26D13973005B9416 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
-		C94F6D3226D13A2B005B9416 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
 		C94F6D3726D13A7E005B9416 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		C94F6D3C26D13B79005B9416 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		C9D9110026D39801002DCF97 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		C9D9111126D39889002DCF97 /* QuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		C9D9111226D39889002DCF97 /* LessonListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonListView.swift; sourceTree = "<group>"; };
+		C9D9111326D39889002DCF97 /* AuthenticationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		C9D9111426D39889002DCF97 /* LessonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +119,8 @@
 		C92962FB26D130CC00931009 /* Lugha */ = {
 			isa = PBXGroup;
 			children = (
+				C9D9111026D39878002DCF97 /* View */,
 				C94F6D1726D135D8005B9416 /* Model */,
-				C94F6D0726D13309005B9416 /* View */,
 				C97863E626D3682A004E2C7D /* ViewModel */,
 				C92962FC26D130CC00931009 /* LughaApp.swift */,
 				C929630026D130D200931009 /* Assets.xcassets */,
@@ -158,24 +158,13 @@
 			path = LughaUITests;
 			sourceTree = "<group>";
 		};
-		C94F6D0726D13309005B9416 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C92962FE26D130CC00931009 /* LessonListView.swift */,
-				C94F6D0826D13349005B9416 /* AuthenticationView.swift */,
-				C94F6D0D26D1342C005B9416 /* LessonView.swift */,
-				C94F6D1226D134EB005B9416 /* QuizView.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		C94F6D1726D135D8005B9416 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				C94F6D1826D135EA005B9416 /* User.swift */,
 				C94F6D2326D135F7005B9416 /* Quiz.swift */,
-				C94F6D3226D13A2B005B9416 /* Lesson.swift */,
 				C94F6D2826D13948005B9416 /* Question.swift */,
+				C9D9110026D39801002DCF97 /* Lesson.swift */,
 				C94F6D2D26D13973005B9416 /* Answer.swift */,
 				C94F6D3726D13A7E005B9416 /* Language.swift */,
 				C94F6D3C26D13B79005B9416 /* Flashcard.swift */,
@@ -188,6 +177,17 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C9D9111026D39878002DCF97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9D9111326D39889002DCF97 /* AuthenticationView.swift */,
+				C9D9111226D39889002DCF97 /* LessonListView.swift */,
+				C9D9111426D39889002DCF97 /* LessonView.swift */,
+				C9D9111126D39889002DCF97 /* QuizView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,17 +319,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D9111826D39889002DCF97 /* LessonView.swift in Sources */,
+				C9D9110126D39801002DCF97 /* Lesson.swift in Sources */,
 				C929630626D130D200931009 /* Persistence.swift in Sources */,
-				C92962FF26D130CC00931009 /* LessonListView.swift in Sources */,
-				C94F6D1326D134EB005B9416 /* QuizView.swift in Sources */,
-				C94F6D3326D13A2B005B9416 /* Lesson.swift in Sources */,
+				C9D9111526D39889002DCF97 /* QuizView.swift in Sources */,
 				C92962FD26D130CC00931009 /* LughaApp.swift in Sources */,
-				C94F6D0E26D1342C005B9416 /* LessonView.swift in Sources */,
+				C9D9111726D39889002DCF97 /* AuthenticationView.swift in Sources */,
 				C94F6D3D26D13B79005B9416 /* Flashcard.swift in Sources */,
 				C94F6D2E26D13973005B9416 /* Answer.swift in Sources */,
+				C9D9111626D39889002DCF97 /* LessonListView.swift in Sources */,
 				C94F6D2926D13948005B9416 /* Question.swift in Sources */,
 				C94F6D3826D13A7E005B9416 /* Language.swift in Sources */,
-				C94F6D0926D13349005B9416 /* AuthenticationView.swift in Sources */,
 				C929630926D130D200931009 /* Lugha.xcdatamodeld in Sources */,
 				C94F6D1926D135EA005B9416 /* User.swift in Sources */,
 				C94F6D2426D135F7005B9416 /* Quiz.swift in Sources */,
