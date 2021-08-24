@@ -12,6 +12,7 @@ struct Itemy: Identifiable {
     var id: UUID
     var name: String
     var duration: String
+    var rating: Int
 }
 class GlobalEnvironment: ObservableObject {
     @Published var language = "Swahili"
@@ -28,7 +29,7 @@ class GlobalEnvironment: ObservableObject {
 struct LessonListView: View {
     @EnvironmentObject var env: GlobalEnvironment
     
-    @State private var items = [Itemy(id: UUID(), name: "Simple Nouns", duration: "10"), Itemy(id: UUID(), name: "Extended Nouns", duration: "5"), Itemy(id: UUID(), name: "Extended Nouns", duration: "5"), Itemy(id: UUID(), name: "Extended Nouns", duration: "5"), Itemy(id: UUID(), name: "Extended Nouns", duration: "5"),Itemy(id: UUID(), name: "Extended Nouns", duration: "5")]
+    @State private var items = [Itemy(id: UUID(), name: "Simple Nouns", duration: "10", rating: 4), Itemy(id: UUID(), name: "Extended Nouns", duration: "5", rating: 4), Itemy(id: UUID(), name: "Extended Nouns", duration: "5", rating: 5), Itemy(id: UUID(), name: "Extended Nouns", duration: "5", rating: 1), Itemy(id: UUID(), name: "Extended Nouns", duration: "5", rating: 3),Itemy(id: UUID(), name: "Extended Nouns", duration: "5", rating: 2)]
     @State private var showPopup = false
     
     var body: some View {
@@ -69,11 +70,18 @@ struct LessonCardView: View {
     var item: Itemy
     var body: some View {
         ZStack(alignment: .leading) {
-            RoundedRectangle(cornerRadius: 8.0).frame(width: 350.0, height: 120.0, alignment: .center).foregroundColor(.purple)
+            RoundedRectangle(cornerRadius: 8.0).frame(width: UIScreen.main.bounds.width - 30, height: 120.0, alignment: .center).foregroundColor(.purple)
             VStack(alignment: .leading, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
                 Text("\(item.name)").foregroundColor(.white).font(.headline)
                 Text("Lesson Duration: \(item.duration) minutes").font(.custom("Avenir Next", size: 14.0)).foregroundColor(.white)
                 Spacer()
+                HStack(alignment: .center, spacing: 1, content: {
+                    Image(systemName: "star.fill").foregroundColor(.white)
+                    Image(systemName: "star.fill").foregroundColor(.white)
+                    Image(systemName: "star.fill").foregroundColor(.white)
+                    Image(systemName: "star.leadinghalf.fill").foregroundColor(.white)
+                    Image(systemName: "star").foregroundColor(.white)
+                })
             }).padding()
         }
     }

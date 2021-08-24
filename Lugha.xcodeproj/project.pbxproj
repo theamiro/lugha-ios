@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6875532FD582FC2C674FA70F /* Pods_LughaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685A4D09CCA783AA1BDD467E /* Pods_LughaTests.framework */; };
+		86599A7A2A212B168AD5641E /* Pods_Lugha_LughaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A29FDAD96E5520B4E8C54D0 /* Pods_Lugha_LughaUITests.framework */; };
+		AA2F7E874472D75BA634BD34 /* Pods_Lugha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6DEA48A2652BFA68FE9416 /* Pods_Lugha.framework */; };
 		C92962FD26D130CC00931009 /* LughaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92962FC26D130CC00931009 /* LughaApp.swift */; };
 		C929630126D130D200931009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C929630026D130D200931009 /* Assets.xcassets */; };
 		C929630426D130D200931009 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C929630326D130D200931009 /* Preview Assets.xcassets */; };
@@ -46,6 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F6DEA48A2652BFA68FE9416 /* Pods_Lugha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lugha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D9682C17B72FBD43629CE7 /* Pods-Lugha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lugha.release.xcconfig"; path = "Target Support Files/Pods-Lugha/Pods-Lugha.release.xcconfig"; sourceTree = "<group>"; };
+		40E5F57B75D5AC71244E9892 /* Pods-Lugha-LughaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lugha-LughaUITests.release.xcconfig"; path = "Target Support Files/Pods-Lugha-LughaUITests/Pods-Lugha-LughaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		685A4D09CCA783AA1BDD467E /* Pods_LughaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LughaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8976BDD56C0589A890955D /* Pods-LughaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LughaTests.release.xcconfig"; path = "Target Support Files/Pods-LughaTests/Pods-LughaTests.release.xcconfig"; sourceTree = "<group>"; };
+		8547EDF824002D4E9AC7D333 /* Pods-LughaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LughaTests.debug.xcconfig"; path = "Target Support Files/Pods-LughaTests/Pods-LughaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		911BB8C7D5A1E5F3B954E678 /* Pods-Lugha-LughaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lugha-LughaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lugha-LughaUITests/Pods-Lugha-LughaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A29FDAD96E5520B4E8C54D0 /* Pods_Lugha_LughaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lugha_LughaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B367D3C4F9EE89DF1D4CCDCF /* Pods-Lugha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lugha.debug.xcconfig"; path = "Target Support Files/Pods-Lugha/Pods-Lugha.debug.xcconfig"; sourceTree = "<group>"; };
 		C92962F926D130CC00931009 /* Lugha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lugha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92962FC26D130CC00931009 /* LughaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LughaApp.swift; sourceTree = "<group>"; };
 		C929630026D130D200931009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2F7E874472D75BA634BD34 /* Pods_Lugha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6875532FD582FC2C674FA70F /* Pods_LughaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,12 +106,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86599A7A2A212B168AD5641E /* Pods_Lugha_LughaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAA3F8478A840B180BFFD0A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B367D3C4F9EE89DF1D4CCDCF /* Pods-Lugha.debug.xcconfig */,
+				40D9682C17B72FBD43629CE7 /* Pods-Lugha.release.xcconfig */,
+				911BB8C7D5A1E5F3B954E678 /* Pods-Lugha-LughaUITests.debug.xcconfig */,
+				40E5F57B75D5AC71244E9892 /* Pods-Lugha-LughaUITests.release.xcconfig */,
+				8547EDF824002D4E9AC7D333 /* Pods-LughaTests.debug.xcconfig */,
+				7C8976BDD56C0589A890955D /* Pods-LughaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C92962F026D130CC00931009 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +134,8 @@
 				C929631226D130D200931009 /* LughaTests */,
 				C929631D26D130D200931009 /* LughaUITests */,
 				C92962FA26D130CC00931009 /* Products */,
+				AAA3F8478A840B180BFFD0A7 /* Pods */,
+				C970C17F61F25D0DE136452E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +205,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		C970C17F61F25D0DE136452E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F6DEA48A2652BFA68FE9416 /* Pods_Lugha.framework */,
+				9A29FDAD96E5520B4E8C54D0 /* Pods_Lugha_LughaUITests.framework */,
+				685A4D09CCA783AA1BDD467E /* Pods_LughaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C97863E626D3682A004E2C7D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C929632326D130D200931009 /* Build configuration list for PBXNativeTarget "Lugha" */;
 			buildPhases = (
+				AD498F0E0E3398E3D96B1FBD /* [CP] Check Pods Manifest.lock */,
 				C92962F526D130CC00931009 /* Sources */,
 				C92962F626D130CC00931009 /* Frameworks */,
 				C92962F726D130CC00931009 /* Resources */,
+				ABD90418064FD0CEC7B0BFEE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C929632626D130D200931009 /* Build configuration list for PBXNativeTarget "LughaTests" */;
 			buildPhases = (
+				EFC44B87AA1101685AA1C7B1 /* [CP] Check Pods Manifest.lock */,
 				C929630B26D130D200931009 /* Sources */,
 				C929630C26D130D200931009 /* Frameworks */,
 				C929630D26D130D200931009 /* Resources */,
@@ -235,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C929632926D130D200931009 /* Build configuration list for PBXNativeTarget "LughaUITests" */;
 			buildPhases = (
+				0FF4ACEFB80463DF110B291E /* [CP] Check Pods Manifest.lock */,
 				C929631626D130D200931009 /* Sources */,
 				C929631726D130D200931009 /* Frameworks */,
 				C929631826D130D200931009 /* Resources */,
+				99DC7BE3FC47667F9B99F5CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -316,6 +362,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FF4ACEFB80463DF110B291E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lugha-LughaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99DC7BE3FC47667F9B99F5CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lugha-LughaUITests/Pods-Lugha-LughaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lugha-LughaUITests/Pods-Lugha-LughaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lugha-LughaUITests/Pods-Lugha-LughaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD90418064FD0CEC7B0BFEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lugha/Pods-Lugha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lugha/Pods-Lugha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lugha/Pods-Lugha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD498F0E0E3398E3D96B1FBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lugha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFC44B87AA1101685AA1C7B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LughaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C92962F526D130CC00931009 /* Sources */ = {
@@ -490,6 +639,7 @@
 		};
 		C929632426D130D200931009 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B367D3C4F9EE89DF1D4CCDCF /* Pods-Lugha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -512,6 +662,7 @@
 		};
 		C929632526D130D200931009 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D9682C17B72FBD43629CE7 /* Pods-Lugha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -534,6 +685,7 @@
 		};
 		C929632726D130D200931009 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8547EDF824002D4E9AC7D333 /* Pods-LughaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +708,7 @@
 		};
 		C929632826D130D200931009 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8976BDD56C0589A890955D /* Pods-LughaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -578,6 +731,7 @@
 		};
 		C929632A26D130D200931009 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911BB8C7D5A1E5F3B954E678 /* Pods-Lugha-LughaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -598,6 +752,7 @@
 		};
 		C929632B26D130D200931009 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E5F57B75D5AC71244E9892 /* Pods-Lugha-LughaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -34,8 +34,8 @@ struct LanguageSelectorView: View {
                                 }
                             }
                         }
-                    ).frame(width: UIScreen.main.bounds.width - 80, height: UIScreen.main.bounds.height / 2, alignment: .center).background(Color.white)
-                }.background(Color.white).cornerRadius(16.0)
+                    )
+                }.frame(width: UIScreen.main.bounds.width - 80, height: UIScreen.main.bounds.height / 3, alignment: .center).background(Color.white).cornerRadius(16.0)
                 Button(action: {
                     withAnimation {
                         env.showLanguagePopup = false
